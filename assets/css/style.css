@@ -31,6 +31,7 @@ body {
 }
 .titles {
     font-family: 'Roboto Condensed', sans-serif; 
+    text-align: center
 }
 h1 {
     font-size: 5vw;
@@ -78,6 +79,9 @@ h1 {
 }
 .projectLinks {
     color: black;
+}
+.icons {
+    font-size: 3rem;
 }
 
 
