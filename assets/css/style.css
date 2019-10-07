@@ -31,7 +31,7 @@ body {
 }
 .titles {
     font-family: 'Roboto Condensed', sans-serif; 
-    text-align: center
+    text-align: center;
 }
 h1 {
     font-size: 5vw;
@@ -76,6 +76,7 @@ h1 {
     width: 80%;
     height: 80%;
     padding-bottom: 20px;
+    padding-top: 40px;
 }
 .projectLinks {
     color: black;

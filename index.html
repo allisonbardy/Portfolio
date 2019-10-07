@@ -23,7 +23,7 @@
             <navbar>
                 <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ffffff;">
                     <a class="navbar-brand" style="font-family: 'Pacifico', cursive" href="index.html"><h2>Allison Bardy</h2></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText " aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarText">
@@ -52,7 +52,7 @@
     <div class="container-fluid">
         <img src="assets/images/bg5.jpg" id="flowers" alt="flowers">
 
-        <p class="container-fluid titles" id="mainText">NYC-based <br><strong>Full Stack</strong><br> Web Developer</p>
+        <p class="container-fluid titles" id="mainText">New York City <br><strong>Full Stack</strong><br> Web Developer</p>
     </div>
 
     <div class="divider"></div>
@@ -65,7 +65,7 @@
             </div>
             </div> 
           <div class="col-md-6 col-lg-6" style="padding-bottom: 15px;">
-            <h1 class="titles">Welcome to my site!</h1>
+            <h1 class="titles">About Me</h1>
             <p>I'm a Full Stack Web Developer looking to expand my knowledge of software development. I'm enrolled in a full stack web development bootcamp at Columbia University. I am passionate about the projects I've created</p>
           </div>
           <div class="col-md-12 col-lg-12 text-center" style="padding-top: 50px; border-top: 1px solid #000000">
@@ -81,13 +81,15 @@
 
           </div>
         </div>
+        <a class="divider" id="portfolioPage"></a>
     </div>
 
-    <a class="divider" id="portfolioPage"></a>
+    <!-- <a class="divider" id="portfolioPage"></a> -->
     <div class="divider"></div>
 
     <!-- portfolio -->
     <div class="container-fluid">
+
       <p class="titles" id="projectTitle">My Portfolio</p><hr>
       <div class="row text-center">
 
@@ -140,12 +142,14 @@
                 </div>
 
           </div>
+          <a class="divider" id="contactpage"></a>
       </div>   
     
     <!-- contact page -->
-    <a id="contactpage"></a>
+    <!-- <a class="divider" id="contactpage"></a> -->
     <div class="divider"></div>
     <div class="jumbotron jumbotron-fluid">
+
      <p class="titles" id="contactTitle">Contact Me!</p><hr>
     <div class="container-fluid">
         <form>
@@ -184,5 +188,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+    $(".navbar-nav li a").click(function(event) {
+      if (!$(this).parent().hasClass('dropdown'))
+          $(".navbar-collapse").collapse('hide');
+      });
+    </script>
 </body>
 </html>
