@@ -78,8 +78,9 @@ h1 {
     margin: auto;
     width: 80%;
     height: 80%;
-    padding-bottom: 20px;
-    padding-top: 40px;
+    /* padding-bottom: 40px; */
+    border-radius: 20px;
+    /* padding-top: 3px; */
 }
 .projectLinks {
     color: black;
@@ -103,6 +104,9 @@ h2  {
     font-family: Arial, Helvetica, sans-serif; 
     color: black;
     padding: 20px;
+}
+.top-padding {
+    padding-top: 30px;
 }
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
