@@ -102,8 +102,7 @@ h2  {
 .contact-font {
     font-family: Arial, Helvetica, sans-serif; 
     color: black;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+
     padding: 20px;
 }
 /* // Extra small devices (portrait phones, less than 576px)
