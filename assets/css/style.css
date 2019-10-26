@@ -108,6 +108,16 @@ h2  {
 .top-padding {
     padding-top: 30px;
 }
+
+.landing-links {
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000 !important;
+}
+a {
+    color: #000000;
+}
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
